@@ -7,49 +7,36 @@
     }
 
     .main-article {
+        display: block;
+        text-align: center;
         margin: 0px 0px 16px 0px;
     }
 
     .main-text {
         text-align: center;
     } 
-
-    .aside-article {
-        margin: 0px 16px;
-    }
-
-    .profile {
-        text-align: center;
-        margin-bottom: 16px;
-    }
-    
-    .ranking-article {
-        margin: 16px;
-    }
-
-    .ranking-title {
-        text-align: center;
-    }
-
-    .archive {
-        margin: 0px 16px 16px 16px;
-    }
-
-    .archive-title {
-        text-align: center;
-    }
-
-    .archive li:first-child {
-        border-top: 1px solid rgb(46, 46, 46);
-    }
-
-    .archive li {
-        padding: 16px;
-        border-bottom: 1px solid rgb(46, 46, 46);
-    }
 }
 
 @media screen and (min-width:768px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 16px;
+    }
+
+    main {
+        width: 65%;
+    }
+
+    .main-article {
+        display: block;
+        text-align: center;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .main-text {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1024px) {

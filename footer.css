@@ -24,6 +24,38 @@
 }
 
 @media screen and (min-width:768px) {
+    .footer-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+        margin: 50px 0px;
+        background-color: rgb(252, 248, 248);
+    }
+
+    .footer-title {
+        font-weight: bold;
+        padding-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .footer-contents {
+        width: 30%;
+        margin: 16px;
+    }
+
+    .menu-list li:first-child {
+        border-top: 1px solid rgb(46, 46, 46);
+    }
+
+    .menu-list li {
+        padding: 16px;
+        border-bottom: 1px solid rgb(46, 46, 46);
+    }
+
+    .copyright {
+        font-size: 1rem;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1024px) {

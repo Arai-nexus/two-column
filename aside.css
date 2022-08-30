@@ -1,4 +1,5 @@
 @media screen and (max-width: 767px) {
+
     .aside-article {
         margin: 0px 16px;
     }
@@ -35,6 +36,56 @@
 }
 
 @media screen and (min-width:768px) {
+    aside {
+        width: 33%;
+        padding: 20px;
+    }
+
+    .aside-article {
+        margin: 0px 16px;
+    }
+
+    .profile {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .profile img {
+        width: 50%;
+    }
+
+    .name {
+        font-weight: bold;
+    }
+    
+    .ranking-article {
+        margin: 16px;
+        margin-bottom: 50px;
+    }
+
+    .ranking-title {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .archive {
+        margin: 16px;
+    }
+
+    .archive-title {
+        font-weight: bold;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .archive li:first-child {
+        border-top: solid 1px #777;
+    }
+
+    .archive li {
+        padding: 16px;
+        border-bottom: solid 1px #777;
+    }
 }
 
 @media screen and (min-width: 1024px) {
