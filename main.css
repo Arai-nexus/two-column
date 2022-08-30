@@ -2,9 +2,6 @@
     main {
         margin: 0px 16px;
     }
-    
-    .container {
-    }
 
     .main-article {
         display: block;
@@ -40,4 +37,23 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 16px;
+    }
+
+    main {
+        width: 65%;
+    }
+
+    .main-article {
+        display: block;
+        text-align: center;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .main-text {
+        text-align: center;
+    }
 }

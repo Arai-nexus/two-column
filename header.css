@@ -99,12 +99,51 @@
 }
 
 @media screen and (min-width: 1024px) {
+    /* グローバルナビゲーションのメニューは1200pxの中におさめます。 */
+    header {
+        /* PC、スマホ時ともに固定 */
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 111;
+        transition: padding .3s;
+    }
+
+    .title {
+        margin-left: 20px;
+    }
+
+    .header-contents {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .header-nav {
+        background-color: #000;
+        overflow: auto;
+    }
+
+    .header-contents ul {
+        display: flex;
+        color: #fff;
+        /* 幅を調整したときに */
+        /* 文字を画面幅に合わせて切れないように表示する */
+
+    }
+
+    .header-nav ul li {
+        color: #fff;
+        background-color: #000;
+    }
+
+    .header-contents li {
+        margin: 10px 30px;
+    }
+
+    .header-contents li:first-child {
+        margin-left: 5px;
+    }
 }
-
-
-
-
-
-
-
-

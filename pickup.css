@@ -1,7 +1,4 @@
-@media screen and (max-width: 767px) {
-    .pickup {
-    }
-    
+@media screen and (max-width: 767px) {    
     .article {
         text-align: center;
         margin: 0px 16px 16px 16px;
@@ -38,4 +35,22 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .pickup {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .article {
+        width: 33%;
+        text-align: center;
+        margin: 0px 16px 16px 16px;
+    }
+
+    .article-sentence {
+        text-align: center;
+    }
+
+    .read-more {
+        text-align: center;
+    }
 }
