@@ -1,19 +1,4 @@
 @media screen and (max-width: 767px) {
-    main {
-        margin: 0px 16px;
-    }
-    
-    .container {
-    }
-
-    .main-article {
-        margin: 0px 0px 16px 0px;
-    }
-
-    .main-text {
-        text-align: center;
-    } 
-
     .aside-article {
         margin: 0px 16px;
     }

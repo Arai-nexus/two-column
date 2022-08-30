@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="pickup.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="aside.css">
     <link rel="stylesheet" href="footer.css">
     <title>Travel Blog</title>
 </head>
 <body>
     <header>
-        <h3 class="title">Travel Blog</p>
-        <nav class="header-contents">
-            <ul>
+        <h3 class="title">Travel Blog</h3>
+        <nav class="header-nav">
+            <ul class="header-contents">
                 <li>NEWS</li>
                 <li>COLUMN</li>
                 <li>SERIES</li>
@@ -26,43 +27,90 @@
     </header>
     <section class="pickup">
         <div class="article">
-                <a class="">記事</a>
-            </div>
-            <div class="article">
-                <a class="">記事</a>
-            </div>
-            <div class="article">
-                <a class="">記事</a>
-            </div>
+            <img src="https://placehold.jp/300x220.png">
+            <div class="article-sentence">記事</div>
+            <div class="read-more"><a href="">READ MORE</a></div>
+        </div>
+        <div class="article">
+            <img src="https://placehold.jp/300x220.png">
+            <div class="article-sentence">記事</div>
+            <div class="read-more"><a href="">READ MORE</a></div>
+        </div>
+        <div class="article">
+            <img src="https://placehold.jp/300x220.png">
+            <div class="article-sentence">記事</div>
+            <div class="read-more"><a href="">READ MORE</a></div>
+        </div>
     </section>
     <div class="container">
         <main>
             <div class="main-article">
-                <p>text</p>
+                <img src="https://placehold.jp/300x220.png">
+                <div class="main-text">text</div>
+                <div class="read-more"><a href="">READ MORE</a></div>
             </div>
             <div class="main-article">
-                <p>text</p>
+                <img src="https://placehold.jp/300x220.png">
+                <div class="main-text">text</div>
+                <div class="read-more"><a href="">READ MORE</a></div>
             </div>
             <div class="main-article">
-                <p>text</p>
+                <img src="https://placehold.jp/300x220.png">
+                <div class="main-text">text</div>
+                <div class="read-more"><a href="">READ MORE</a></div>
             </div>
-            <div class="main-article">
-                <p>text</p>
-            </div>
-            <div class="main-article">
-                <p>text</p>
-            </div>
-        </main>
+            </main>
+        </div>
         <aside>
-            side bar
+            <div class="profile">
+                <img src="https://placehold.jp/120x120.png">
+                <div class="name">Name</div>
+            </div>
+            <div class="ranking-article">
+                <div class="ranking-title">Ranking</div>
+                <div class="ranking-content">
+                    <img src="https://placehold.jp/300x220.png">
+                    <div class="main-text">text</div>
+                </div>
+            </div>
+            <div class="archive">
+                <div class="archive-title">Archive</div>
+                <ul class="archive-list">
+                    <li>xxxx/xx/xx</li>
+                    <li>xxxx/xx/xx</li>
+                    <li>xxxx/xx/xx</li>
+                    <li>xxxx/xx/xx</li>
+                    <li>xxxx/xx/xx</li>
+                </ul>
+            </div>
         </aside>
-    </div>
     <footer>
         <div class="footer-menu">
-            <div class="footer-contents">About</div>
-            <div class="footer-contents">Menu</div>
-            <div class="footer-contents">Twitter</div>
+            <div class="footer-contents">
+                <div class="footer-title">About</div>
+                <ul class="about-list">
+                    <li><a href="#" class="arrow">プロフィール詳細</a></li>
+                    <li><a href="#" class="arrow">お仕事の依頼</a></li>
+                    <li><a href="#" class="arrow">お問い合わせ</a></li>
+                  </ul>
+            </div>
+            <div class="footer-contents">
+                <div class="footer-title">Menu</div>
+                <ul class="menu-list">
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">CATEGORY</a></li>
+                    <li><a href="#">COLUMN</a></li>
+                    <li><a href="#">SERIES</a></li>
+                    <li><a href="#">Q&A</a></li>
+                </ul>
+            </div>
+            <div class="footer-contents">
+                <div class="footer-title">Twitter</div>
+                <a class="twitter-timeline" data-height="315" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a>
+                <script async src="https://platform.twitter.com/widgets.js"></script>
+            </div>
         </div>
+        <p class="copyright">&copy; Travel & Blog</p>
     </footer>
 </body>
 </html>
