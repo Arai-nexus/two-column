@@ -8,6 +8,11 @@
         text-align: center;
         margin-bottom: 16px;
     }
+
+    .profile-img {
+        border-radius: 50%;
+        overflow: hidden;
+    }
     
     .ranking-article {
         margin: 16px;
@@ -57,6 +62,11 @@
     .name {
         font-weight: bold;
     }
+
+    .profile-img {
+        border-radius: 50%;
+        overflow: hidden;
+    }
     
     .ranking-article {
         margin: 16px;
@@ -102,9 +112,11 @@
         text-align: center;
         margin-bottom: 50px;
     }
-
-    .profile img {
+    
+    .profile-img {
         width: 50%;
+        border-radius: 50%;
+        overflow: hidden;
     }
 
     .name {
